@@ -54,7 +54,13 @@
             </li>
           </ul>
         </nav>
-
+        <button class="mobile-open-button" type="button">
+          <svg width="24" height="24">
+            <use
+              href="./images/icons.svg#icon-burger"
+            ></use>
+          </svg>
+        </button>
         <address class="address-list">
           <ul class="menu-address">
             <li class="menu-address-item">
@@ -185,7 +191,8 @@
           <ul class="menu-team">
             <li class="team-item">
               <img
-                src="./images/img(1).jpg"
+                srcset="./images/img-mark@2x.jpg 2x"
+                src="./images/img-mark.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -256,7 +263,8 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/img(2).jpg"
+                srcset="./images/img-tom@2x.jpg 2x"
+                src="./images/img-tom.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -327,7 +335,8 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/img(3).jpg"
+                srcset="./images/img-camila@2x.jpg 2x"
+                src="./images/img-camila.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -398,7 +407,8 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/img(4).jpg"
+                srcset="./images/img-daniel@2x.jpg 2x"
+                src="./images/img-daniel.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -480,7 +490,16 @@
             <li class="portfolio-item">
               <div class="overlay-wrapper">
                 <img
-                  src="./images/img1banking-app.jpg"
+                  srcset="
+                    ./images/img-mobile-bank.jpg     288w,
+                    ./images/img-mobile-bank@2x.jpg  576w,
+                    ./images/img-tablet-bank.jpg     356w,
+                    ./images/img-tablet-bank@2x.jpg  712w,
+                    ./images/img-banking-app.jpg     360w,
+                    ./images/img-desktop-bank@2x.jpg 720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-banking-app.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -501,7 +520,16 @@
             <li class="portfolio-item">
               <div class="overlay-wrapper">
                 <img
-                  src="./images/img2cashless-payment.jpg"
+                  srcset="
+                    ./images/img-mobile-cashment.jpg     288w,
+                    ./images/img-mobile-cashment@2x.jpg  576w,
+                    ./images/img-tablet-cashment.jpg     356w,
+                    ./images/img-tablet-cashment@2x.jpg  712w,
+                    ./images/img-cashment.jpg            360w,
+                    ./images/img-desktop-cashment@2x.jpg 720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-cashment.jpg"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -523,7 +551,16 @@
             <li class="portfolio-item">
               <div class="overlay-wrapper">
                 <img
-                  src="./images/img3meditation-app.jpg"
+                  srcset="
+                    ./images/img-mobile-meditation.jpg     288w,
+                    ./images/img-mobile-meditation@2x.jpg  576w,
+                    ./images/img-tablet-meditation.jpg     356w,
+                    ./images/img-tablet-meditation@2x.jpg  712w,
+                    ./images/img-meditation-app.jpg        360w,
+                    ./images/img-desktop-meditation@2x.jpg 720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-meditation-app.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -544,7 +581,16 @@
             <li class="portfolio-item">
               <div class="overlay-wrapper">
                 <img
-                  src="./images/img4taxi-service.jpg"
+                  srcset="
+                    ./images/img-mobile-taxi.jpg     288w,
+                    ./images/img-mobile-taxi@2x.jpg  576w,
+                    ./images/img-tablet-taxi.jpg     356w,
+                    ./images/img-tablet-taxi@2x.jpg  712w,
+                    ./images/img-taxi-service.jpg    360w,
+                    ./images/img-desktop-taxi@2x.jpg 720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-taxi-service.jpg"
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -565,7 +611,16 @@
             <li class="portfolio-item">
               <div class="overlay-wrapper">
                 <img
-                  src="./images/img5screen-illustrations.jpg"
+                  srcset="
+                    ./images/img-mobile-screen.jpg        288w,
+                    ./images/img-mobile-screen@2x.jpg     576w,
+                    ./images/img-tablet-screen.jpg        356w,
+                    ./images/img-tablet-screen@2x.jpg     712w,
+                    ./images/img-screen-illustrations.jpg 360w,
+                    ./images/img-desktop-screen@2x.jpg    720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-screen-illustrations.jpg"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -588,7 +643,16 @@
             <li class="portfolio-item">
               <div class="overlay-wrapper">
                 <img
-                  src="./images/img6online-courses.jpg"
+                  srcset="
+                    ./images/img-mobile-online.jpg     288w,
+                    ./images/img-mobile-online@2x.jpg  576w,
+                    ./images/img-tablet-online.jpg     356w,
+                    ./images/img-tablet-online@2x.jpg  712w,
+                    ./images/img-online-courses.jpg    360w,
+                    ./images/img-desktop-online@2x.jpg 720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
+                  src="./images/img-online-courses.jpg"
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -719,7 +783,7 @@
     <!-- /Footer -->
 
     <!-- Backdrop -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg
