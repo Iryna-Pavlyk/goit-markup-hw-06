@@ -480,6 +480,7 @@ body {
 .link-footer-messenger:focus {
   background-color: #31d0aa;
 }
+/* =================================================add============================ */
 .footer-form {
   display: inline-flex;
   gap: 24px;
@@ -506,10 +507,10 @@ body {
   background: #4d5ae5;
   color: #ffffff;
 }
-.btn-footer-form:hover,
+/* .btn-footer-form:hover,
 .btn-footer-form:focus {
   background-color: #404bbf;
-}
+} */
 .footer-icon-send {
   margin-left: 16px;
 }
